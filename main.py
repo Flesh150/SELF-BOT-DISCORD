@@ -14,7 +14,7 @@ import asyncio
 import json
 
 from discord.ext import commands
-from config import TOKEN, PREFIX
+from config import *
 
 client = commands.Bot( command_prefix = PREFIX,help_command = None, self_bot = True)
 
